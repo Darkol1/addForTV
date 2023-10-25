@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/addForTV/static/css/main.e6c13ad2.css",
+    "main.js": "/addForTV/static/js/main.3fb08b7e.js",
+    "index.html": "/addForTV/index.html",
+    "main.e6c13ad2.css.map": "/addForTV/static/css/main.e6c13ad2.css.map",
+    "main.3fb08b7e.js.map": "/addForTV/static/js/main.3fb08b7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3fb08b7e.js"
+  ]
+}
