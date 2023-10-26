@@ -10,13 +10,13 @@ return(
         <P>Держите телефон под рукой.<br/> Скоро с Вами свяжется наш менеджер. </P>
     </Wrapper>
     <Qr>
-        <img src={"/images/qrWithText.svg"} alt={'QR'}/>
+        <img src={process.env.PUBLIC_URL + "/images/qrWithText.svg"} alt={'QR'}/>
     </Qr>
 
-    <Link to='/'>
+    <Link to='/addForTV'>
     <Close>
         <Cross>
-            <img src={"/images/cross.svg"} alt={'close'}/>
+            <img src={process.env.PUBLIC_URL + "/images/cross.svg"} alt={'close'}/>
         </Cross>
     </Close>
     </Link>

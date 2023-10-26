@@ -1,16 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import Button from "./Button";
+import Button from "../components/Button";
 import { Link } from "react-router-dom";
 
 
-export default function Banner () {
 
+export default function Banner () {
     return (
         <Wrapper>
             <p>ИСПОЛНИТЕ МЕЧТУ ВАШЕГО МАЛЫША!<br/>ПОДАРИТЕ ЕМУ СОБАКУ!</p>
             <QrCode>
-                <img src={"../images/qr.svg"} alt={'QR'}/>
+                <img src={process.env.PUBLIC_URL + '/images/qr.svg'} alt={'QR'}/>
             </QrCode>
             <p>Сканируйте QR-код или нажмите ОК</p>
             <Link to='/phone'>

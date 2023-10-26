@@ -12,7 +12,7 @@ export default function Landing () {
       }, 5000);
   
       return () => clearTimeout(timer);
-    }, []);
+    }, [showBanner]);
 
 
     return (

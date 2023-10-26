@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import styled from "styled-components";
-import Button from "./Button";
+import Button from "../components/Button";
 import { Link } from "react-router-dom";
-import PhoneButton from "./PhoneButton";
-import CheckBox from "./CheckBox";
+import PhoneButton from "../components/PhoneButton";
+import CheckBox from "../components/CheckBox";
 
 
 

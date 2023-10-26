@@ -47,10 +47,8 @@ const CheckBoxContent = styled.div<{ isChecked: boolean }>`
 		right: 1px;
 		bottom: 1px;
 		transition: 0.5s;
-		background: url('/images/icons8.svg') no-repeat center center;
+		background: url(${process.env.PUBLIC_URL+ '/images/icons8.svg'}) no-repeat center center;
 		opacity: ${({ isChecked }) => (isChecked ? '0' : '1')};
-
-	
 	}
 
 	&:after {
