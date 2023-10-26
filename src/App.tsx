@@ -11,7 +11,7 @@ const App: React.FC = (): JSX.Element => {
     <Layout>
         <Video/>
         <Switch>
-            <Route exact path='/addForTV' component={Home} />
+            <Route exact path='/' component={Home} />
             <Route path='/phone' component={PhoneInput} />
             <Route path='/final' component={Final} />
         </Switch>
